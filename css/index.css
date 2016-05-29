@@ -1,0 +1,78 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    border-style: none;
+    cursor: pointer;
+    position: fixed;
+}
+
+/* COLOURS:
+ * Red - #E45F56
+ * Green - #A3D39C
+ * Light blue - #7ACCC8
+ * Dark blue - #4AAAA5
+ * Purple - #35404F
+*/ 
+
+#r1c1 {
+    background-color: #AEECF7;
+    top: 0%;
+    right: 50%;
+    bottom: 66.66%;
+    left: 0%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}
+
+#r1c2 {
+    background-color: #92DEEB;
+    top: 0%;
+    right: 0%;
+    bottom: 66.66%;
+    left: 50%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}
+
+#r2c1 {
+    background-color: #FDFDFD;
+    top: 33.33%;
+    right: 50%;
+    bottom: 33.33%;
+    left: 0%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}
+
+#r2c2 {
+    background-color: #FFD37A;
+    top: 33.33%;
+    right: 0%;
+    bottom: 33.33%;
+    left: 50%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}
+
+#r3c1 {
+    background-color: #FFD37A;
+    top: 66.66%;
+    right: 50%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}
+
+#r3c2 {
+    background-color: #AEECF7;
+    top: 66.66%;
+    right: 0%;
+    bottom: 0%;
+    left: 50%;
+    z-index: 0;
+    transition: top 0.8s, right 0.8s, bottom 0.8s, left 0.8s;
+}

@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #AEECF7;
+}
+
+#back-bar {
+    height: 30px;
+    width: 100%;
+}
+
+#back-button {
+	width: 40px;
+    vertical-align: middle;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
